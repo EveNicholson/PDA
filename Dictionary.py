@@ -1,11 +1,19 @@
-friends = {
-    "Dorota": {"country": "Poland",
-                "job": "Sale assistant",
-                "age": 37},
-    "Krzysztof": {"country": "Poland",
-                  "job": "tiler",
-                  "age": 45},
-    "Cameron": {"country": "Scotland",
-                "job": "Police officer",
-                "age": 26}            
-                }
+
+person = {"name": "Dorota Dybas",
+            "country": "Poland",
+            "job": "Sale assistant",
+            "hobby":["decorating", "dancing"],
+            "age": 37}
+
+
+                    
+                
+def add_hobby(person, new_hobby):
+    person["hobby"].append(new_hobby)
+
+
+add_hobby(person, "reading")
+print(person["hobby"])
+
+
+
