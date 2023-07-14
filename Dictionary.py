@@ -17,3 +17,8 @@ print(person["hobby"])
 
 
 
+# Dictionaries in programming are use to store group of objects. 
+# Dictionaries are having keys and each key have a single value.
+# It allows us to efficiently look up data.
+
+# The code I used is adding new hobby to hobby list.
