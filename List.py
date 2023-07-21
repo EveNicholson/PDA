@@ -1,18 +1,17 @@
 employees = ["Ewelina", "Philip", "Marta", "Jarek"]
 
 
-def employee_name(employee):
-    if employee == "Marta":
-        return True
-    else:
-        return False
-    
-print(employee_name("Marta"))
+employees.append("Dorota")
+for employee in employees:
+    print(employee)
     
 
 
-# Lists in programing are used to collect similar items in a single variable
-# so they are easy to read and understand. 
 
-# The code I used is checking if name "Marta" is on the list of employees.
+# A function is a block of code which only runs when it is called.
+# You can pass data, known as parameters, into a function.
+# Lists in programming are used to collect similar items in a single variable so they are easy to read and understand.
+# We create a list by surrounding all the elements with square brackets [] and each element separated by commas.
+# The function I used is adding new employee to the employees list.
+
 
